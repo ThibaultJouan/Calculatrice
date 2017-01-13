@@ -36,10 +36,8 @@ public class MainActivity extends AppCompatActivity implements Receveur.RetourBa
             @Override
             public void onClick(View v) {
                 SendCalcul(nombre1, nombre2);
-
-                SmsManager sms = SmsManager.getDefault();
-                sms.sendTextMessage("0650497547", null, "coucou", null, null);
-
+                //SmsManager sms = SmsManager.getDefault();
+                //sms.sendTextMessage("0650497547", null, "coucou", null, null);
             }
         });
     }
